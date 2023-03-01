@@ -1,0 +1,105 @@
+:root {
+  /*sizes*/
+  --half-text: 0.5em;
+  --text-sm: 1em;
+  --text-reg: 1.2em;
+  --text-m: 1.8em;
+  --text-lg: 2.5em;
+  --text-xl: 4em;
+  --reg-font: "Comic Sans MS";
+  /*colors*/
+  --transparent-1: (rgba(0, 0, 0, 0.1));
+  --gray-1: rgb(200, 200, 200);
+  --gray-2: rgb(150, 150, 150);
+  --gray-3: rgb(104, 104, 104);
+  --gray-4: rgb(75, 75, 75);
+  --gray-5: rgb(40, 40, 40);
+  --blue-1: hsl(240, 100%, 65%);
+  --blue-2: blue;
+  --blue-3: rgb(30, 30, 189);
+  --red-1: red;
+  --red-2: darkred;
+}
+/*containers*/
+.col {
+  display: flex;
+  flex-direction: column;
+}
+.col.spaced .row {
+  margin: 1em 0em;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+/*media queries*/
+@media (width < 768px) {
+}
+
+/*fonts*/
+/* @font-face {
+  font-family: InkFree;
+  src: url('./resources/Inkfree.woff');
+} */
+.reg-font {
+  font-family: Garamond;
+}
+.story-font {
+  font-family: InkFree;
+}
+.title-font {
+  font-family: "Comic Sans MS";
+}
+.bold {
+  font-weight: 700;
+}
+.txt-s {
+  font-size: var(--text-sm);
+}
+.txt-reg {
+  font-size: var(--text-reg);
+}
+.txt-m {
+  font-size: var(--text-m);
+}
+.txt-lg {
+  font-size: var(--text-lg);
+}
+.txt-xl {
+  font-size: var(--text-xl);
+}
+
+/*colors*/
+.translucent {
+  /*this should be opacity instead to alter color prop*/
+  background-color: rgba(150, 150, 150, 0.3);
+  backdrop-filter: blur(3px);
+}
+.white {
+  color: snow;
+}
+
+/*backgrounds*/
+.bg-white {
+  background-color: white;
+}
+
+/*borders*/
+.imagine-border {
+  border: 1px dashed black;
+}
+.rounded {
+  border-radius: 1em;
+}
+.faded-edge.bg-white {
+  box-shadow: 0px 0px 10px 20px white;
+}
+
+/*shadows*/
+.font-outline {
+  text-shadow: 0px 0px 3px rgb(20, 20, 20), 0.5px 0px 1px rgb(20, 20, 20), 0px 0.5px 1px rgb(20, 20, 20),
+    -0.5px 0px 1px rgb(20, 20, 20), 0px -0.5px 1px rgb(20, 20, 20);
+}
+
+/*animations*/

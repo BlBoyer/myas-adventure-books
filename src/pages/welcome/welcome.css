@@ -1,0 +1,10 @@
+#main-div {
+  width: 100dvw;
+  height: 100dvh;
+  background: center center / 100dvw 100dvh no-repeat url("../../img/welcome-bg.jpg");
+}
+/*local overrides*/
+div {
+  color: var(--gray-4);
+}
+/*media queries - change background fit over certain size*/
