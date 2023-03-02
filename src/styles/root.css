@@ -6,7 +6,7 @@
   --text-m: 1.8em;
   --text-lg: 2.5em;
   --text-xl: 4em;
-  --reg-font: "Comic Sans MS";
+  --reg-font: 'Comic Sans MS';
   /*colors*/
   --transparent-1: (rgba(0, 0, 0, 0.1));
   --gray-1: rgb(200, 200, 200);
@@ -49,7 +49,7 @@
   font-family: InkFree;
 }
 .title-font {
-  font-family: "Comic Sans MS";
+  font-family: 'Comic Sans MS';
 }
 .bold {
   font-weight: 700;
@@ -103,3 +103,8 @@
 }
 
 /*animations*/
+/*events*/
+.inactive-link {
+  color: var(--gray-3);
+  pointer-events: none;
+}

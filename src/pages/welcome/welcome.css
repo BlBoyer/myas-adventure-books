@@ -1,7 +1,7 @@
 #main-div {
-  min-width: 100dvw;
+  min-width: fit-content;
   min-height: 100dvh;
-  background: center center / 100% 100% no-repeat url("../../img/welcome-bg.jpg");
+  background: center center / 100% 100% no-repeat url('../../img/welcome-bg.jpg');
 }
 /*local overrides*/
 div {
