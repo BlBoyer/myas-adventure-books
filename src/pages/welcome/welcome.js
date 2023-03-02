@@ -1,18 +1,22 @@
-import "./welcome.css";
+import Navbar from '../../components/navbar';
+import './welcome.css';
 
 export default function Welcome() {
   return (
-    <div id="main-div" class="row">
-      <div class="col mx-vs my-xl bg-white faded-edge">
-        <div class="row align-center imagine-border">
+    <div id='main-div' class='row'>
+      <div class='col mx-vs my-xl bg-white faded-edge'>
+        {/*This gets abstracted into the header component*/}
+        <div class='row align-center imagine-border'>
           <h1>Welcome</h1>
+          <hr />
+          <Navbar page='Welcome' />
         </div>
-        <div class="row mx-vl px-m imagine-border">
-          <div class="col">
-            <div class="row justify-c">
+        <div class='row mx-vl px-m imagine-border'>
+          <div class='col'>
+            <div class='row justify-c'>
               <h2>Introduction</h2>
             </div>
-            <div class="row justify-c">
+            <div class='row justify-c'>
               <p>
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce
                 posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis

@@ -141,6 +141,9 @@
 .px-m {
   padding: 0px var(--text-sm);
 }
+.py-m {
+  padding-inline: var(--text-sm);
+}
 .pt-m {
   padding-top: var(--text-sm);
 }

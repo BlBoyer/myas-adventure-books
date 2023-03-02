@@ -19,4 +19,5 @@ p {
 button {
 }
 a {
+  color: var(--blue-1);
 }
