@@ -5,11 +5,11 @@ export default function Navbar({ page }) {
   /*need to figure out hr or hardcode elements*/
   const pageList = ['Welcome', 'About', 'Books', 'Illustrator', 'Author'];
   const navlinks = pageList.map((name, ind) => [
-    <a href={`/#${name}`} id={`${name}-link`} key={`a-${ind}`} className='mx-m py-m'>
+    <a href={`/#${name}`} id={`${name}-link`} key={`a-${ind}`} className='py-m'>
       {name}
       <hr key={`h-${ind}`} />
     </a>,
-    <hr id={`${name}-hr`} style={{ height: '2em' }} key={`h-${ind + pageList.length}`} />,
+    <hr id={`${name}-hr`} className='vr-lg' key={`h-${ind + pageList.length}`} />,
   ]);
 
   //we might need to run a useEffect here to make changes on mount
@@ -32,5 +32,5 @@ export default function Navbar({ page }) {
     });
   }, []);
 
-  return <div className='row align-c'>{navlinks}</div>;
+  return <div className='row align-c collapse-stack imagine-border'>{navlinks}</div>;
 }

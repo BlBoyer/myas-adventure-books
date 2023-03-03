@@ -6,9 +6,11 @@ export default function Welcome() {
     <div id='main-div' className='row'>
       <div className='col mx-vs my-xl bg-white faded-edge'>
         {/*This gets abstracted into the header component*/}
-        <div className='row align-center imagine-border'>
-          <h1 className='mx-s'>Welcome</h1>
-          <hr />
+        <div className='row justify-e align-c imagine-border'>
+          <h1 className='mx-s imagine-border'>Welcome</h1>
+          <div class='fit-width'>
+            <hr className='mx-s vr-xl' />
+          </div>
           <Navbar page='Welcome' />
         </div>
         <div className='row mx-vl px-m imagine-border'>
