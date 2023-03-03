@@ -32,5 +32,5 @@ export default function Navbar({ page }) {
     });
   }, []);
 
-  return <div className='row align-c collapse-stack imagine-border'>{navlinks}</div>;
+  return <div className='row align-c ml-m collapse-stack imagine-border'>{navlinks}</div>;
 }

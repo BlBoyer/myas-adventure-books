@@ -1,13 +1,13 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import "./styles/root.css";
-import "./styles/flex.css";
-import "./styles/sizes.css";
-import "./styles/overrides.css";
-import Layout from "./pages/layout/layout";
-import reportWebVitals from "./reportWebVitals";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './styles/root.css';
+import './styles/flex.css';
+import './styles/containers.css';
+import './styles/overrides.css';
+import Layout from './pages/layout/layout';
+import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<Layout />);
 
 // If you want to start measuring performance in your app, pass a function
