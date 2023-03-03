@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import './navbar.css';
 
-export default function Navbar({ page }) {
+export default function Navbar({ routeInfo }) {
   /*need to figure out hr or hardcode elements*/
   const pageList = ['Welcome', 'About', 'Books', 'Illustrator', 'Author'];
   const navlinks = pageList.map((name, ind) => [
@@ -20,7 +20,7 @@ export default function Navbar({ page }) {
       let link = document.getElementById(`${name}-link`);
       let rule = document.getElementById(`${name}-hr`);
 
-      if (name === page) {
+      if (name === routeInfo[0]) {
         console.log(`\x1b[95m${name} link set to inactive\x1b[0m`);
         link.classList.add('inactive-link');
       }
