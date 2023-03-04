@@ -5,8 +5,7 @@
   }
   .collapse-stack hr.header {
     height: 0;
-    max-width: 75vw;
-    min-width: 40vw;
+    width: 75vw;
     margin-top: -1em;
   }
 }

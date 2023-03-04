@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import './navbar.css';
 
 export default function Navbar({ routeInfo }) {
-  const pageList = ['Welcome', 'About', 'Books', 'Illustrator', 'Author'];
+  const pageList = ['Welcome', 'Books', 'About', 'Author', 'Illustrator'];
   const navlinks = pageList.map((name, ind) => [
     <a href={`/#${name}`} id={`${name}-link`} key={`a-${ind}`} className='navbar py-m'>
       {name}
@@ -25,11 +25,14 @@ export default function Navbar({ routeInfo }) {
       }
 
       if (name === pageList.slice(-1).toLocaleString()) {
-        console.log(`\x1b[95mRemoving Last HR\x1b[0m`);
         rule.remove();
       }
     });
   }, []);
 
-  return <div className='navbar row align-c ml-m collapse-stack'>{navlinks}</div>;
+  return (
+    <div id='navbar' className='navbar row align-c ml-m collapse-stack'>
+      {navlinks}
+    </div>
+  );
 }
