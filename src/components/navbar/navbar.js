@@ -2,14 +2,13 @@ import { useEffect } from 'react';
 import './navbar.css';
 
 export default function Navbar({ routeInfo }) {
-  
   const pageList = ['Welcome', 'About', 'Books', 'Illustrator', 'Author'];
   const navlinks = pageList.map((name, ind) => [
-    <a href={`/#${name}`} id={`${name}-link`} key={`a-${ind}`} className='py-m'>
+    <a href={`/#${name}`} id={`${name}-link`} key={`a-${ind}`} className='navbar py-m'>
       {name}
-      <hr key={`h-${ind}`} />
+      <hr key={`h-${ind}`} className='navbar' />
     </a>,
-    <hr id={`${name}-hr`} className='vr-lg' key={`h-${ind + pageList.length}`} />,
+    <hr id={`${name}-hr`} className='navbar vr-lg' key={`h-${ind + pageList.length}`} />,
   ]);
 
   useEffect(() => {
@@ -32,5 +31,5 @@ export default function Navbar({ routeInfo }) {
     });
   }, []);
 
-  return <div className='row align-c ml-m collapse-stack imagine-border'>{navlinks}</div>;
+  return <div className='navbar row align-c ml-m collapse-stack'>{navlinks}</div>;
 }

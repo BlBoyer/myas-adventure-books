@@ -1,0 +1,12 @@
+/*overrides*/
+@media (width < 768px) {
+  .collapse-stack.row.header {
+    align-items: flex-start;
+  }
+  .collapse-stack hr.header {
+    height: 0;
+    max-width: 75vw;
+    min-width: 40vw;
+    margin-top: -1em;
+  }
+}

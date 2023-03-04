@@ -37,9 +37,6 @@
   .collapse-stack.row {
     flex-direction: column;
   }
-  .collapse-stack > hr {
-    display: none;
-  }
 }
 
 /*fonts*/

@@ -18,7 +18,6 @@ export default function Layout() {
   }, []);
 
   useEffect(() => {
-    //might need to figure this out differently
     console.log(`${colors.mg}${currentPage} from comploader${colors.ec}`);
     loadPage(lazy(() => import(`../${currentPage.toLowerCase()}/${currentPage.toLowerCase()}`)));
   }, [currentPage]);
