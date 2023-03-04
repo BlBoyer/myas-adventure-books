@@ -1,3 +1,5 @@
+import img from './maya.jpg';
+
 export function AboutStory() {
   return (
     <div className='about row mx-vl px-m imagine-border'>
@@ -24,8 +26,16 @@ export function AboutStory() {
             your larger than life personality has been an inspiration to me! And finally, to those who read this book
             and the books that will soon follow this one! Thank you for being part of my world! A trust has been set up
             called Maya's Adventures Trust where 50% of the net proceeds of sales for the se Maya's Adventure books will
-            go to the real-life Maya and her family. Grant Boyer
+            go to the real-life Maya and her family. <br />
+            <br />
+            Grant Boyer
           </p>
+        </div>
+        <div>
+          <hr />
+        </div>
+        <div className='about row img-container mx-m imagine-border'>
+          <img src={img} className='about img' />
         </div>
       </div>
     </div>

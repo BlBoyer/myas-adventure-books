@@ -13,7 +13,6 @@ export default function Navbar({ routeInfo }) {
 
   useEffect(() => {
     pageList.forEach(name => {
-      console.log(`\x1b[95m${name}\x1b[0m`);
       let link = document.getElementById(`${name}-link`);
       let rule = document.getElementById(`${name}-hr`);
 

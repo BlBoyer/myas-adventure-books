@@ -7,6 +7,16 @@
   --text-lg: 2.5em;
   --text-xl: 4em;
   --reg-font: 'Comic Sans MS';
+  --vw-xs: 5vw;
+  --vw-s: 8vw;
+  --vw-m: 10vw;
+  --vw-l: 20vw;
+  --vw-xl: 30vw;
+  --vh-xs: 5vh;
+  --vh-s: 8vh;
+  --vh-m: 10vh;
+  --vh-l: 20vh;
+  --vh-xl: 30vh;
   /*colors*/
   --transparent-1: (rgba(0, 0, 0, 0.1));
   --gray-1: rgb(200, 200, 200);

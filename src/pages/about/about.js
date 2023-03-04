@@ -1,3 +1,4 @@
+import './about.css';
 import Header from '../../components/header/header';
 import { AboutStory } from './about.story';
 
