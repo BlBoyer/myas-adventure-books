@@ -1,10 +1,12 @@
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 h1 {
   font-size: var(--text-lg);
   font-weight: 700;
-  font-family: "Comic Sans MS";
+  font-family: 'Comic Sans MS';
 }
 h2 {
   font-size: var(--text-m);
@@ -17,4 +19,20 @@ p {
 button {
 }
 a {
+  color: var(--blue-1);
+}
+hr.vr-s {
+  height: var(--text-sm);
+}
+hr.vr {
+  height: var(--text-reg);
+}
+hr.vr-m {
+  height: var(--text-reg);
+}
+hr.vr-lg {
+  height: var(--text-lg);
+}
+hr.vr-xl {
+  height: var(--text-xl);
 }
