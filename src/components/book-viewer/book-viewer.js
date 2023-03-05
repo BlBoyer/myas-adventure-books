@@ -36,17 +36,27 @@ export default function BookViewer() {
     bookArt14,
   ];
   function changeBook(direction) {
-    if (direction === 'right') {
+    if (direction === 'right' && bookIndex < bookImages.length - 1) {
+      setBook(bookIndex => bookIndex + 1);
     }
-    if (direction === 'left') {
+    if (direction === 'left' && bookIndex > 0) {
+      setBook(bookIndex => bookIndex - 1);
     }
   }
   return (
     <div className='book-viewer col align-c'>
-      <div className='book-viewer row justify-e'>
-        <button onClick={changeBook('left')}>Left</button>
-        <img src={bookImages[bookIndex]} alt='Book Art' className='book-viewer' />
-        <button onClick={changeBook('right')}>Right</button>
+      <div className='book-viewer row justify-c fit max-width bg-gray-4 faded-edge'>
+        <button
+          onClick={() => changeBook('left')}
+          className='book-viewer fit min-width min-height my-a txt-xl bg-translucent'>
+          <text className='book-viewer left-arrow txt-align-r'>&#10148;</text>
+        </button>
+        <img src={bookImages[bookIndex]} alt='Book Art' className='book-viewer auto-height' />
+        <button
+          onClick={() => changeBook('right')}
+          className='book-viewer fit min-width min-height my-a txt-xl bg-translucent'>
+          <text className='book-viewer'>&#10148;</text>
+        </button>
       </div>
     </div>
   );
