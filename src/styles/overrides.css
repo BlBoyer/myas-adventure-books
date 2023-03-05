@@ -1,5 +1,6 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--gray-4);
   margin: 0;
   padding: 0;
 }
@@ -7,6 +8,7 @@ h1 {
   font-size: var(--text-lg);
   font-weight: 700;
   font-family: 'Comic Sans MS';
+  color: black;
 }
 h2 {
   font-size: var(--text-m);
@@ -17,6 +19,8 @@ h3 {
 p {
 }
 button {
+  background-color: var(--blue-1);
+  border-radius: 10%;
 }
 a {
   color: var(--blue-1);

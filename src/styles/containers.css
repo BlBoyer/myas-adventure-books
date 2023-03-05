@@ -1,7 +1,24 @@
 /*containers*/
+.col {
+  display: flex;
+  flex-direction: column;
+}
+.col.spaced .row {
+  margin: 1em 0em;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
 .phone-size {
   width: 600px;
   height: 800px;
+}
+.auto-width {
+  width: auto;
+}
+.auto-height {
+  height: auto;
 }
 .full-width {
   min-width: 100%;
@@ -9,15 +26,14 @@
 .full-height {
   min-height: 100%;
 }
-.fit-width {
-  min-width: fit-content;
+.fit.max-width {
   max-width: fit-content;
 }
-.fit-height {
-  min-height: fit-content;
+.fit.min-width {
+  min-width: fit-content;
 }
-.col-sm {
-  width: 10dvw;
+.fit.min-height {
+  min-height: fit-content;
 }
 /*all margins*/
 .m-a {
