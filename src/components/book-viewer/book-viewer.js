@@ -44,7 +44,7 @@ export default function BookViewer() {
     }
   }
   return (
-    <div className='book-viewer col align-c'>
+    <div className='book-viewer main col align-c'>
       <div className='book-viewer row justify-c fit max-width bg-gray-4 faded-edge'>
         <button
           onClick={() => changeBook('left')}
