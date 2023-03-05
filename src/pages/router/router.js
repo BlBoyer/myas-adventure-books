@@ -1,7 +1,7 @@
 import { useState, useEffect, lazy, Suspense } from 'react';
 import * as colors from '../../styles/styled-console';
 
-export default function Layout() {
+export default function Router() {
   const [currentPage, setPage] = useState('Welcome');
   const [Page, loadPage] = useState(lazy(() => import('../welcome/welcome')));
 

@@ -1,12 +1,12 @@
 import './author.css';
 import Header from '../../components/header/header';
-import AuthorStory from './author.story';
+import SectionHeader from '../../components/section-header/section-header';
 
 export default function Author({ routeInfo }) {
   return (
     <div id='author'>
       <Header routeInfo={routeInfo} />
-      <AuthorStory />
+      <SectionHeader routeInfo={routeInfo} />
     </div>
   );
 }

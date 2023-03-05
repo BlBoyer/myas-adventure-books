@@ -1,6 +1,8 @@
+/*add container size to root*/
 .faded-edge.book-viewer {
   max-width: 30vw;
 }
+/*only border, add container size to root*/
 img.book-viewer {
   max-width: 30vw;
   border: 1px solid black;
@@ -10,9 +12,11 @@ button.book-viewer {
 button.book-viewer:hover {
   color: var(--gray-1);
 }
+/*this could be a flip-x*/
 .left-arrow {
   transform: scaleX(-1);
 }
+/*change display*/
 text.book-viewer {
   display: inline-block;
 }
@@ -25,6 +29,9 @@ text.book-viewer {
   }
 }
 @media (width < 768px) {
+  .main {
+    margin-top: 1em;
+  }
   .faded-edge.book-viewer {
     max-width: 35vw;
   }
