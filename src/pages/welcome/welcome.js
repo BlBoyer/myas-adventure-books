@@ -1,5 +1,4 @@
 import Header from '../../components/header/header';
-import Navbar from '../../components/navbar/navbar';
 import './welcome.css';
 
 export default function Welcome({ routeInfo }) {
@@ -7,10 +6,13 @@ export default function Welcome({ routeInfo }) {
     <div id='main-div' className='welcome row'>
       <div className='welcome col mx-vs my-xl bg-white faded-edge'>
         <Header routeInfo={routeInfo} />
-        <div className='welcome row mx-vl px-m imagine-border'>
+        <div className='welcome row mx-vl px-m'>
           <div className='welcome col'>
             <div className='welcome row justify-c'>
-              <h2>Introduction</h2>
+              <div className='welcome col fit min-width'>
+                <h2 className='mb-a'>Introduction</h2>
+                <p className='row justify-c mt-a'>&#10570; &#10571;</p>
+              </div>
             </div>
             <div className='welcome row justify-c'>
               <p>

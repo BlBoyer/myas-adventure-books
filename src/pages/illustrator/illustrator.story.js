@@ -1,9 +1,12 @@
 export default function IllustratorStory() {
   return (
-    <div className='illustrator row mx-vl px-m imagine-border'>
+    <div className='illustrator row mx-vl px-m'>
       <div className='illustrator col'>
         <div className='illustrator row justify-c'>
-          <h2>About the Illustrator</h2>
+          <div className='illustrator col fit min-width'>
+            <h2 className='mb-a'>Illustrator</h2>
+            <p className='row justify-c mt-a'>&#10570; &#10571;</p>
+          </div>
         </div>
         <div className='illustrator row justify-c'>
           <p>
