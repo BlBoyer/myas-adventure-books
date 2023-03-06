@@ -160,9 +160,19 @@
 }
 
 /*shadows*/
-.font-outline {
+.basic-txt-shade {
+  text-shadow: 1px 2px 2px var(--gray-4);
+}
+.font-faded-outline {
   text-shadow: 0px 0px 3px rgb(20, 20, 20), 0.5px 0px 1px rgb(20, 20, 20), 0px 0.5px 1px rgb(20, 20, 20),
     -0.5px 0px 1px rgb(20, 20, 20), 0px -0.5px 1px rgb(20, 20, 20);
+}
+.button-glow {
+  text-shadow: 0.5px 0px 6px var(--white), -0.5px 0px 6px var(--white), 0px 0.5px 6px var(--white),
+    0px -0.5px 6px var(--white);
+}
+.button-shade {
+  box-shadow: 3px 3px 5px 2px var(--gray-3);
 }
 .faded-edge.bg-white {
   box-shadow: 0px 0px 10px 20px white;
