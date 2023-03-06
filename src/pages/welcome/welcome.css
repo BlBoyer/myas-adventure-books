@@ -3,8 +3,4 @@
   min-height: 100dvh;
   background: center center / 100% 100% no-repeat url('../../img/welcome-bg.jpg');
 }
-/*local overrides*/
-div.welcome {
-  color: var(--gray-4);
-}
 /*media queries - change background fit over certain size*/

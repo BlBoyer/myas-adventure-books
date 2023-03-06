@@ -7,8 +7,19 @@
   --text-lg: 2.5em;
   --text-xl: 4em;
   --reg-font: 'Comic Sans MS';
+  --vw-xs: 5vw;
+  --vw-s: 8vw;
+  --vw-m: 10vw;
+  --vw-l: 20vw;
+  --vw-xl: 30vw;
+  --vh-xs: 5vh;
+  --vh-s: 8vh;
+  --vh-m: 10vh;
+  --vh-l: 20vh;
+  --vh-xl: 30vh;
   /*colors*/
   --transparent-1: (rgba(0, 0, 0, 0.1));
+  --translucent-1: (rgba(40, 40, 40, 0.3));
   --gray-1: rgb(200, 200, 200);
   --gray-2: rgb(150, 150, 150);
   --gray-3: rgb(104, 104, 104);
@@ -20,18 +31,6 @@
   --red-1: red;
   --red-2: darkred;
 }
-/*containers*/
-.col {
-  display: flex;
-  flex-direction: column;
-}
-.col.spaced .row {
-  margin: 1em 0em;
-}
-.row {
-  display: flex;
-  flex-direction: row;
-}
 /*media queries*/
 @media (width < 768px) {
   .collapse-stack.row {
@@ -39,7 +38,7 @@
   }
 }
 
-/*fonts*/
+/*text*/
 /* @font-face {
   font-family: InkFree;
   src: url('./resources/Inkfree.woff');
@@ -71,20 +70,64 @@
 .txt-xl {
   font-size: var(--text-xl);
 }
+.txt-align-l {
+  text-align: left;
+}
+.txt-align-r {
+  text-align: right;
+}
+.txt-align-c {
+  text-align: center;
+}
+.txt-align-s {
+  text-align: start;
+}
+.txt-align-j {
+  text-align: justify;
+}
+.txt-align-e {
+  text-align: end;
+}
 
 /*colors*/
-.translucent {
-  /*this should be opacity instead to alter color prop*/
-  background-color: rgba(150, 150, 150, 0.3);
-  backdrop-filter: blur(3px);
+.gray-1 {
+  color: var(--gray-1);
+}
+.gray-2 {
+  color: var(--gray-2);
+}
+.gray-3 {
+  color: var(--gray-3);
+}
+.gray-4 {
+  color: var(--gray-4);
 }
 .white {
   color: snow;
 }
-
 /*backgrounds*/
+.bg-transparent {
+  background-color: rgba(0, 0, 0, 0);
+}
+.bg-translucent {
+  /*this should be opacity instead to alter color prop*/
+  background-color: rgba(150, 150, 150, 0.3);
+  backdrop-filter: blur(3px);
+}
 .bg-white {
   background-color: white;
+}
+.bg-gray-1 {
+  background-color: var(--gray-1);
+}
+.bg-gray-2 {
+  background-color: var(--gray-2);
+}
+.bg-gray-3 {
+  background-color: var(--gray-3);
+}
+.bg-gray-4 {
+  background-color: var(--gray-4);
 }
 
 /*borders*/
@@ -94,14 +137,32 @@
 .rounded {
   border-radius: 1em;
 }
-.faded-edge.bg-white {
-  box-shadow: 0px 0px 10px 20px white;
+.accent-l {
+}
+.accent-r {
+}
+.accent-t {
+}
+.accent-b {
+  border-bottom: 5px solid var(--gray-4);
+  border-bottom-left-radius: 15%;
+  border-bottom-right-radius: 15%;
+}
+.accent-x {
+}
+.accent-y {
 }
 
 /*shadows*/
 .font-outline {
   text-shadow: 0px 0px 3px rgb(20, 20, 20), 0.5px 0px 1px rgb(20, 20, 20), 0px 0.5px 1px rgb(20, 20, 20),
     -0.5px 0px 1px rgb(20, 20, 20), 0px -0.5px 1px rgb(20, 20, 20);
+}
+.faded-edge.bg-white {
+  box-shadow: 0px 0px 10px 20px white;
+}
+.faded-edge.bg-gray-4 {
+  box-shadow: 0px 0px 10px 20px var(--gray-4);
 }
 
 /*animations*/

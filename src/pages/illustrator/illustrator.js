@@ -1,10 +1,10 @@
-import './about.css';
+import './illustrator.css';
 import Header from '../../components/header/header';
 import SectionHeader from '../../components/section-header/section-header';
 
-export default function About({ routeInfo }) {
+export default function Illustrator({ routeInfo }) {
   return (
-    <div id='about'>
+    <div id='illustrator' className='col'>
       <Header routeInfo={routeInfo} />
       <SectionHeader routeInfo={routeInfo} />
     </div>

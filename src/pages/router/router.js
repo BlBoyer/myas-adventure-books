@@ -1,18 +1,14 @@
-import React, { useState, useEffect, lazy } from 'react';
+import { useState, useEffect, lazy, Suspense } from 'react';
 import * as colors from '../../styles/styled-console';
 
-export default function Layout() {
+export default function Router() {
   const [currentPage, setPage] = useState('Welcome');
   const [Page, loadPage] = useState(lazy(() => import('../welcome/welcome')));
 
   useEffect(() => {
     //hashchange listener - need to stop adding
-    window.addEventListener('hashchange', evt => {
-      console.log(
-        `${colors.cy}Current Page: ${currentPage} Current Hash: ${window.location.hash}${colors.ec}, \n Should set page if values are different only.`
-      );
-      if (currentPage !== new URL(evt.newURL).hash.slice(1))
-        console.log(`${colors.yw}comploader should fire next${colors.ec}`);
+    window.addEventListener('hashchange', function eventHandler(evt) {
+      console.log(`${colors.yw}Setting page from window change, if values are different${colors.ec}`);
       setPage(new URL(evt.newURL).hash.slice(1));
     });
   }, []);
@@ -23,9 +19,9 @@ export default function Layout() {
   }, [currentPage]);
   return (
     <div>
-      <React.Suspense>
+      <Suspense>
         <Page routeInfo={[currentPage, setPage]} />
-      </React.Suspense>
+      </Suspense>
     </div>
   );
 }
