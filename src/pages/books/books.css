@@ -1,0 +1,5 @@
+#main-div.books {
+  min-width: fit-content;
+  min-height: 100dvh;
+  background: center center / 100% 100% no-repeat url('../../img/welcome-bg.jpg');
+}
