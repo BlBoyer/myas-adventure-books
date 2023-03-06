@@ -5,7 +5,7 @@ import * as colors from '../../styles/styled-console';
 export default function Navbar({ routeInfo }) {
   const pageList = ['Welcome', 'Books', 'About', 'Author', 'Illustrator'];
   const navlinks = pageList.map((name, ind) => [
-    <a href={`/#${name}`} id={`${name}-link`} key={`a-${ind}`} className='navbar py-s'>
+    <a href={`${process.env.PUBLIC_URL}/#${name}`} id={`${name}-link`} key={`a-${ind}`} className='navbar py-s'>
       {name}
       <hr key={`h-${ind}`} className='navbar' />
     </a>,
