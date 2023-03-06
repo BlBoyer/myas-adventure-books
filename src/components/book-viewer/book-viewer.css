@@ -10,12 +10,18 @@ text.book-viewer {
   .main {
     margin-top: 1em;
   }
+  .book-viewer.faded-edge {
+    width: 40vw;
+  }
   img.book-viewer {
-    width: 35vw;
+    min-width: 40vw;
   }
 }
 @media (width < 540px) {
+  .book-viewer.faded-edge {
+    width: 45vw;
+  }
   img.book-viewer {
-    width: 40vw;
+    min-width: 45vw;
   }
 }
