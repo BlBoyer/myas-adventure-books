@@ -4,7 +4,7 @@ import './navbar.css';
 export default function Navbar({ routeInfo }) {
   const pageList = ['Welcome', 'Books', 'About', 'Author', 'Illustrator'];
   const navlinks = pageList.map((name, ind) => [
-    <a href={`/#${name}`} id={`${name}-link`} key={`a-${ind}`} className='navbar py-m'>
+    <a href={`/#${name}`} id={`${name}-link`} key={`a-${ind}`} className='navbar py-s'>
       {name}
       <hr key={`h-${ind}`} className='navbar' />
     </a>,

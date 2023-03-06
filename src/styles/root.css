@@ -1,5 +1,6 @@
 :root {
   /*sizes*/
+  /*text*/
   --half-text: 0.5em;
   --text-sm: 1em;
   --text-reg: 1.2em;
@@ -7,19 +8,24 @@
   --text-lg: 2.5em;
   --text-xl: 4em;
   --reg-font: 'Comic Sans MS';
+  /*view width, change these for margins, it's what they're for*/
   --vw-xs: 5vw;
   --vw-s: 8vw;
   --vw-m: 10vw;
   --vw-l: 20vw;
   --vw-xl: 30vw;
+  /*view height*/
   --vh-xs: 5vh;
   --vh-s: 8vh;
   --vh-m: 10vh;
   --vh-l: 20vh;
   --vh-xl: 30vh;
+
   /*colors*/
-  --transparent-1: (rgba(0, 0, 0, 0.1));
-  --translucent-1: (rgba(40, 40, 40, 0.3));
+  --translucent-1: (rgba(0, 0, 0, 0.1));
+  --translucent-2: (rgba(40, 40, 40, 0.2));
+  --translucent-3: (rgba(40, 40, 40, 0.3));
+  --white: snow;
   --gray-1: rgb(200, 200, 200);
   --gray-2: rgb(150, 150, 150);
   --gray-3: rgb(104, 104, 104);
@@ -165,6 +171,10 @@
   box-shadow: 0px 0px 10px 20px var(--gray-4);
 }
 
+/*transformations*/
+.flip-x {
+  transform: scaleX(-1);
+}
 /*animations*/
 
 /*events*/
