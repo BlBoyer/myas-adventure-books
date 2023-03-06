@@ -13,3 +13,8 @@ a.navbar {
     display: none;
   }
 }
+@media (width > 768px) {
+  #navbar {
+    visibility: visible;
+  }
+}

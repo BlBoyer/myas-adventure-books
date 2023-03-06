@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import './navbar.css';
+import * as colors from '../../styles/styled-console';
 
 export default function Navbar({ routeInfo }) {
   const pageList = ['Welcome', 'Books', 'About', 'Author', 'Illustrator'];
@@ -17,7 +18,7 @@ export default function Navbar({ routeInfo }) {
       let rule = document.getElementById(`${name}-hr`);
 
       if (name === routeInfo[0]) {
-        console.log(`\x1b[95m${name} link set to inactive\x1b[0m`);
+        console.log(`${colors.mg}${name} link set to inactive${colors.ec}`);
         link.classList.add('inactive-link');
       } else {
         link.addEventListener('click', () => routeInfo[1](name));

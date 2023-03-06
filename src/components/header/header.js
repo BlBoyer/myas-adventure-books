@@ -1,5 +1,6 @@
 import './header.css';
 import Navbar from '../navbar/navbar';
+import NavButton from '../nav-button/nav-button';
 
 export default function Header({ routeInfo }) {
   return (
@@ -8,6 +9,7 @@ export default function Header({ routeInfo }) {
       <div>
         <hr className='header mx-xs vr-xl' />
       </div>
+      <NavButton />
       <Navbar routeInfo={routeInfo} />
     </div>
   );
