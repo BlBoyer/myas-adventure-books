@@ -4,6 +4,9 @@ export function BooksContent() {
     <div className='books row justify-c mx-vl px-s'>
       <div className='books col'>
         <BookViewer />
+        <div>
+          <hr className='mt-l' />
+        </div>
         <div className='books row justify-c'>
           <p>
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere,
