@@ -28,7 +28,7 @@ export default function AboutStory() {
       <div>
         <hr />
       </div>
-      <div className='about row img-container mx-m imagine-border'>
+      <div className='about row img-container mx-reg imagine-border'>
         <img src={img} alt='Maya' className='about img' />
       </div>
     </div>
