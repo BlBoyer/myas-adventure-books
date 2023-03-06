@@ -22,8 +22,23 @@ button {
   background-color: var(--blue-1);
   border-radius: 10%;
 }
+button:hover {
+  outline: 1px solid var(--blue-1);
+  box-shadow: 0px 0px 3px 2px var(--blue-1);
+}
+button:focus {
+  outline: 1px solid var(--blue-1);
+  box-shadow: 0px 0px 3px 2px var(--blue-1);
+}
+button:active {
+  outline: 1px solid var(--blue-4);
+  box-shadow: 0px 0px 3px 2px var(--gray-3);
+}
 a {
-  color: var(--blue-1);
+  color: var(--blue-2);
+}
+a:active {
+  color: var(--red-2);
 }
 hr.vr-s {
   height: var(--text-sm);

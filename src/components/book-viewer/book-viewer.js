@@ -48,13 +48,13 @@ export default function BookViewer() {
       <div className='book-viewer row justify-c view-width v-30 bg-gray-4 faded-edge'>
         <button
           onClick={() => changeBook('left')}
-          className='book-viewer fit min-width min-height my-a txt-xl bg-translucent gray-4'>
+          className='book-viewer fit min-width min-height my-a txt-xl bg-translucent gray-4 button-glow'>
           <text className='book-viewer flip-x txt-align-r'>&#10148;</text>
         </button>
         <img src={bookImages[bookIndex]} alt='Book Art' className='book-viewer view-width v-30 auto-height' />
         <button
           onClick={() => changeBook('right')}
-          className='book-viewer fit min-width min-height my-a txt-xl bg-translucent gray-4'>
+          className='book-viewer fit min-width min-height my-a txt-xl bg-translucent gray-4 button-glow'>
           <text className='book-viewer'>&#10148;</text>
         </button>
       </div>

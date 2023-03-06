@@ -17,11 +17,12 @@ export default function Router() {
     console.log(`${colors.mg}${currentPage} from comploader${colors.ec}`);
     loadPage(lazy(() => import(`../${currentPage.toLowerCase()}/${currentPage.toLowerCase()}`)));
   }, [currentPage]);
-  return (
-    <div>
+  return [
+    <div className='tooSmall px-m red-2'>Oops! Your device is too zoomed in or too small to view this app.</div>,
+    <div className='router index'>
       <Suspense>
         <Page routeInfo={[currentPage, setPage]} />
       </Suspense>
-    </div>
-  );
+    </div>,
+  ];
 }
