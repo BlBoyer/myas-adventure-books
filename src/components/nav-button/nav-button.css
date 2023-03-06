@@ -1,0 +1,10 @@
+/*overrides*/
+.nav-button {
+  position: fixed;
+  top: 30vh;
+}
+@media (width > 768px) {
+  .nav-button {
+    display: none;
+  }
+}

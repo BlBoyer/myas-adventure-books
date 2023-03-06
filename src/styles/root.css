@@ -182,3 +182,6 @@
   color: var(--gray-3);
   pointer-events: none;
 }
+.collapsed {
+  visibility: collapse;
+}
