@@ -8,6 +8,7 @@ a.navbar {
     border: 1px solid black;
     border-radius: 0.5em;
     top: 30vh;
+    padding-block: var(--half-text);
   }
   .collapse-stack > hr.navbar {
     display: none;

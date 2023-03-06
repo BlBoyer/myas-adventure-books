@@ -9,7 +9,7 @@ export default function SectionHeader({ routeInfo }) {
       <div className={`${name} col`}>
         <div className={`${name} row justify-c`}>
           <div className={`${name} col fit min-width`}>
-            <h2 className='mb-a'>
+            <h2 className='mb-a basic-txt-shade'>
               {about}
               {page}
             </h2>

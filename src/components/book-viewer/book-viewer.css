@@ -1,4 +1,7 @@
-/*only border, add container size to root*/
+button.book-viewer {
+  margin-right: -0.25em;
+  margin-left: -0.25em;
+}
 button.book-viewer:hover {
   color: var(--gray-1);
 }
@@ -11,11 +14,17 @@ text.book-viewer {
     margin-top: 1em;
   }
   img.book-viewer {
-    width: 35vw;
+    min-width: 40vw;
+  }
+  button.book-viewer {
+    font-size: var(--text-lg);
   }
 }
 @media (width < 540px) {
   img.book-viewer {
-    width: 40vw;
+    min-width: 45vw;
+  }
+  button.book-viewer {
+    font-size: var(--text-m);
   }
 }
