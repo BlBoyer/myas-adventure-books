@@ -1,14 +1,17 @@
 import './nav-button.css';
-import { useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import * as colors from '../../styles/styled-console';
 export default function NavButton() {
   const isCollapsed = useRef(true);
-  //add class collapsed to navbar
+  const navbar = useRef();
+  useEffect(() => {
+    //set navbar hidden
+    navbar.current = document.getElementById('navbar');
+    navbar.current.classList.add('collapsed');
+  }, []);
   function collapseNav() {
-    console.log(`${colors.rd}${isCollapsed.current}${colors.ec}`);
-    isCollapsed.current
-      ? document.getElementById('navbar').classList.add('collapsed')
-      : document.getElementById('navbar').classList.remove('collapsed');
+    console.log(`${colors.cy}navbar collapsed: ${colors.rd}${isCollapsed.current}${colors.ec}`);
+    !isCollapsed.current ? navbar.current.classList.add('collapsed') : navbar.current.classList.remove('collapsed');
     isCollapsed.current = !isCollapsed.current;
   }
   return (
