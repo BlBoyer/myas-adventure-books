@@ -5,7 +5,7 @@ export default function SectionHeader({ routeInfo }) {
   const about = page === 'Author' || page === 'Illustrator' ? 'About the ' : '';
   const Paragraph = lazy(() => import(`../../pages/${name}/${name}.story`));
   return (
-    <div className={`${name} row mx-vl px-m`}>
+    <div className={`${name} row mx-vm px-m`}>
       <div className={`${name} col`}>
         <div className={`${name} row justify-c`}>
           <div className={`${name} col fit min-width`}>
