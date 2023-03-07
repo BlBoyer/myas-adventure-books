@@ -1,0 +1,23 @@
+button.bg-display-button {
+  position: absolute;
+  top: 1em;
+  left: 95vw;
+  border-color: var(--blue-1);
+  border-width: 2px;
+}
+/*media queries*/
+@media (width < 1000px) {
+  button.bg-display-button {
+    left: 92vw;
+  }
+}
+@media (width < 768px) {
+  button.bg-display-button {
+    left: 90vw;
+  }
+}
+@media (width < 540px) {
+  button.bg-display-button {
+    left: 85vw;
+  }
+}

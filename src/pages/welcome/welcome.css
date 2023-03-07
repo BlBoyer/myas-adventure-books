@@ -1,6 +1,5 @@
-#main-div.welcome {
+#welcome {
   min-width: fit-content;
   min-height: 100dvh;
   background: center center / 100% 100% no-repeat url('../../img/welcome-bg.jpg');
 }
-/*media queries - change background fit over certain size*/

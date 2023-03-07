@@ -1,11 +1,13 @@
 import './illustrator.css';
 import illustratorImg from '../../img/illustrator.jpg';
+import BgButton from '../../components/bg-display-button/bg-display-button';
 import Header from '../../components/header/header';
 import SectionHeader from '../../components/section-header/section-header';
 
 export default function Illustrator({ routeInfo }) {
   return (
-    <div id='main-div' className='illustrator row'>
+    <div id='illustrator' className='illustrator row'>
+      <BgButton routeName={routeInfo[0]} />
       <div className='illustrator col mx-vs my-xl bg-white faded-edge'>
         <Header routeInfo={routeInfo} />
         <SectionHeader routeInfo={routeInfo} />
