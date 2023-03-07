@@ -216,6 +216,17 @@
   transform: scaleX(-1);
 }
 /*animations*/
+.page-fade {
+  animation: 1s ease-in fade-in;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 /*events*/
 .inactive-link {

@@ -15,7 +15,7 @@ export default function MayaStory() {
       </div>
       <div className='maya row img-container mx-reg'>
         <figure>
-          <img src={img} alt='The real-life Maya' className='maya img' />
+          <img src={img} className='maya img' title='Maya' alt='The real-life Maya' />
           <figcaption>
             <i>The real-life Maya</i>
           </figcaption>

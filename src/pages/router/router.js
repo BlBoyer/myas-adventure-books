@@ -1,4 +1,4 @@
-import { useState, useEffect, lazy, Suspense } from 'react';
+import { useState, useEffect, useRef, lazy, Suspense } from 'react';
 import * as colors from '../../styles/styled-console';
 
 export default function Router() {
@@ -21,7 +21,7 @@ export default function Router() {
     <div className='tooSmall px-m red-2' key='1'>
       Oops! Your device is too zoomed in or too small to view this app.
     </div>,
-    <div className='router index' key='2'>
+    <div id='router' className='router index' key='2'>
       <Suspense>
         <Page routeInfo={[currentPage, setPage]} />
       </Suspense>
