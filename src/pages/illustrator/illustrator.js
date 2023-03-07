@@ -6,7 +6,7 @@ import SectionHeader from '../../components/section-header/section-header';
 
 export default function Illustrator({ routeInfo }) {
   return (
-    <div id='illustrator' className='illustrator row'>
+    <div id='illustrator' className='illustrator row page-fade'>
       <BgButton routeName={routeInfo[0]} />
       <div className='illustrator col mx-vs my-xl bg-white faded-edge'>
         <Header routeInfo={routeInfo} />
@@ -14,8 +14,8 @@ export default function Illustrator({ routeInfo }) {
         <div>
           <hr />
         </div>
-        <div class='illustrator row justify-c mt-s'>
-          <img src={illustratorImg} className='illustrator view-width v-40' />
+        <div className='illustrator row justify-c mt-s'>
+          <img src={illustratorImg} className='illustrator view-width v-40' title='Aleksandra' alt='Aleksandra' />
         </div>
       </div>
     </div>
