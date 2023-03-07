@@ -3,7 +3,7 @@ import './navbar.css';
 import * as colors from '../../styles/styled-console';
 
 export default function Navbar({ routeInfo }) {
-  const pageList = ['Welcome', 'Books', 'About', 'Author', 'Illustrator'];
+  const pageList = ['Welcome', 'Books', 'Maya', 'Author', 'Illustrator'];
   const navlinks = pageList.map((name, ind) => [
     <a href={`${process.env.PUBLIC_URL}/#${name}`} id={`${name}-link`} key={`a-${ind}`} className='navbar py-s'>
       {name}

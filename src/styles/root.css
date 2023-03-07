@@ -38,18 +38,13 @@
   --blue-4: rgb(30, 30, 189);
   --red-1: red;
   --red-2: darkred;
+  --orange-1: orange;
+  --orange-2: rgb(202, 130, 0);
   --yellow-1: rgb(255, 255, 79);
 }
 /*text*/
-/* @font-face {
-  font-family: InkFree;
-  src: url('./resources/Inkfree.woff');
-} */
 .reg-font {
   font-family: Garamond;
-}
-.story-font {
-  font-family: InkFree;
 }
 .title-font {
   font-family: 'Comic Sans MS';
@@ -89,6 +84,9 @@
 }
 .txt-align-e {
   text-align: end;
+}
+.indent {
+  text-indent: 40px;
 }
 
 /*colors*/

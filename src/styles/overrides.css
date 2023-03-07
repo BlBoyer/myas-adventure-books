@@ -31,10 +31,24 @@ button:active {
   box-shadow: 0px 0px 3px 2px var(--blue-1);
 }
 a {
+  text-decoration: none;
   color: var(--blue-2);
 }
 a:active {
   color: var(--red-2);
+}
+strong {
+  font-family: 'comic sans ms';
+  font-weight: 700;
+}
+em {
+  font-weight: 500;
+  color: var(--orange-2);
+}
+i-lg {
+  font-weight: 500;
+  font-style: oblique;
+  color: var(--blue-1);
 }
 hr.vr-s {
   height: var(--text-sm);
@@ -50,4 +64,9 @@ hr.vr-lg {
 }
 hr.vr-xl {
   height: var(--text-xl);
+}
+s-txt {
+  font-family: 'comic sans ms';
+  color: var(--red-1);
+  text-shadow: 1px 1px 1px var(--red-2);
 }
