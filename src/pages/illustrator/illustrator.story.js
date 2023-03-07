@@ -7,11 +7,11 @@ export default function IllustratorStory() {
         <s-txt>Hatty and Barty Adventures</s-txt> series
       </a>
       . She is already published in several books, including one of her own, and her work can be seen both at{' '}
-      <a href=''>
+      <a href='https://www.facebook.com/aleksandra.adamska.rzepka/'>
         <b>Facebook</b>
       </a>{' '}
       and at{' '}
-      <a href='https://alexrzepka.blogspot.com/?fbclid=IwAR2jMaslQVpkgHnD3eFocitQItLdepdqVDTAzLarAS69a0xgHtJAgyZerR0'>
+      <a href='https://alexrzepka.blogspot.com/'>
         <b>Blogspot</b>
       </a>
       . In her free time, she loves reading novels, fantasy, and instructional guides. She also enjoys winter sports-
