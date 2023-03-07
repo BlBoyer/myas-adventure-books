@@ -1,10 +1,10 @@
 export default function WelcomeStory() {
   return (
     <p>
-      Several years ago, while editing the book <em>Break Free- by Vladimir Savchuk</em>, a thought entered my mind,
+      Several years ago, while editing the book <em>'Break Free' by Vladimir Savchuk</em>, a thought entered my mind,
       that I should write my own book. I remembered that when my children Elizabeth and Benjamin were little, I had
       created characters named Hatty and Barty that became their staple of bedtime story fare, for several years
-      running. These books- <s-txt>'Maya's Adventures'</s-txt>, are offshoots from the original series:{' '}
+      running. These books- <s-txt>'Maya's Adventures'</s-txt>, are an offshoot from the original series:{' '}
       <s-txt>'Hatty and Barty Adventures'</s-txt>, Month One through Month Twelve. <br />
       <br />
       It takes a team to put a book together and I wish to recognize those who have helped to bring this day to
@@ -20,11 +20,12 @@ export default function WelcomeStory() {
       fortunate to have found you and so glad that you agreed to illustrate my books! You are a godsend who brought my
       characters to life with your superb artwork! Thank you so much! <br />
       <br />
-      Third, to my tireless translator, <strong>Iryna Zimba</strong> you translated my books into two languages, Russian
-      and Ukrainian via your linguistic skills. You are incredible. Thank you so much!
+      Third, to my tireless translators: <strong>Iryna Zimba</strong>, who translated my books into Russian and Ukranian
+      and <strong>Auxiliadora Lopez Artola</strong>, who translated my books into Spanish. You are incredible. Thank you
+      so much!
       <br />
       <br />
-      And finally- to those who read this book and the books that follow this one! Thank you for being part of my world!
+      And finally, to those who read this book and the books that follow this one! Thank you for being part of my world!
       <br />
       <br />
       Grant Boyer
