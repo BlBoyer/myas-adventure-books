@@ -12,6 +12,11 @@ import bookArt11 from './bookArt11.jpg';
 import bookArt12 from './bookArt12.jpg';
 import bookArt13 from './bookArt13.jpg';
 import bookArt14 from './bookArt14.jpg';
+import bookArt15 from './bookArt15.jpg';
+import bookArt16 from './bookArt16.jpg';
+import bookArt17 from './bookArt17.jpg';
+import bookArt18 from './bookArt18.jpg';
+
 import './book-viewer.css';
 import { useState, useRef } from 'react';
 
@@ -34,6 +39,10 @@ export default function BookViewer() {
     bookArt12,
     bookArt13,
     bookArt14,
+    bookArt15,
+    bookArt16,
+    bookArt17,
+    bookArt18,
   ];
   function changeBook(direction) {
     if (direction === 'right' && bookIndex < bookImages.length - 1) {

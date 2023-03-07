@@ -4,7 +4,7 @@ export default function WelcomeStory() {
       Several years ago, while editing the book <em>'Break Free' by Vladimir Savchuk</em>, a thought entered my mind,
       that I should write my own book. I remembered that when my children Elizabeth and Benjamin were little, I had
       created characters named Hatty and Barty that became their staple of bedtime story fare, for several years
-      running. These books- <s-txt>'Maya's Adventures'</s-txt>, are an offshoot from the original series:{' '}
+      running. These books, <s-txt>'Maya's Adventures'</s-txt>, are an offshoot from the original series:{' '}
       <s-txt>'Hatty and Barty Adventures'</s-txt>, Month One through Month Twelve. <br />
       <br />
       It takes a team to put a book together and I wish to recognize those who have helped to bring this day to
