@@ -3,6 +3,3 @@
   min-height: 100dvh;
   background: center center / 100% 100% no-repeat url('../../img/welcome-bg.jpg');
 }
-a.author {
-  text-decoration: none;
-}

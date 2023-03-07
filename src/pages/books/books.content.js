@@ -9,12 +9,13 @@ export function BooksContent() {
         </div>
         <div className='books row justify-c'>
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere,
-            magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc
-            viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus
-            et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem. In
-            porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium
-            mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
+            Maya is a three-year old Eastern European girl with a big personality. She moves to Rigglesnortville, USA
+            with her mom, who she affectionately calls Mamochka and her older sister, Mira. Maya meets and befriends
+            Hatty and Barty, who also live in Rigglesnortville- and is first introduced in the{' '}
+            <a href=''>
+              <s-txt>Hatty and Barty Adventures Month Eight</s-txt>
+            </a>{' '}
+            book.
           </p>
         </div>
       </div>

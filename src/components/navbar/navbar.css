@@ -1,6 +1,3 @@
-a.navbar {
-  text-decoration: none;
-}
 @media (width < 768px) {
   #navbar {
     position: fixed;
