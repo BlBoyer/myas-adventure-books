@@ -18,8 +18,10 @@ export default function Router() {
     loadPage(lazy(() => import(`../${currentPage.toLowerCase()}/${currentPage.toLowerCase()}`)));
   }, [currentPage]);
   return [
-    <div className='tooSmall px-m red-2'>Oops! Your device is too zoomed in or too small to view this app.</div>,
-    <div className='router index'>
+    <div className='tooSmall px-m red-2' key='1'>
+      Oops! Your device is too zoomed in or too small to view this app.
+    </div>,
+    <div className='router index' key='2'>
       <Suspense>
         <Page routeInfo={[currentPage, setPage]} />
       </Suspense>
