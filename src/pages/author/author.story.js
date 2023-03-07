@@ -4,7 +4,7 @@ export default function AuthorStory() {
       Before writing the <s-txt>Maya's Adventures</s-txt> series, I wrote the <s-txt>Hatty and Barty Adventures</s-txt>{' '}
       series{' '}
       <a className='author' href='http://www.hattyandbarty.com'>
-        (ww.hattyandbarty.com)
+        (www.hattyandbarty.com)
       </a>
       . These were bedtime stories I told my children when they were little. I have experience in professional and legal
       writing. Since I was a child one of my hobbies was writing poetry. Before formalizing my stories into published
