@@ -153,6 +153,9 @@
 .bg-white {
   background-color: white;
 }
+.bg-black {
+  background-color: black;
+}
 .bg-gray-1 {
   background-color: var(--gray-1);
 }
@@ -172,6 +175,30 @@
 }
 .rounded {
   border-radius: 30%;
+}
+.circular {
+  border-radius: 50%;
+}
+.solid-border {
+  border-style: solid;
+}
+.border-2 {
+  border-width: 2px;
+}
+.border-3 {
+  border-width: 3px;
+}
+.border-4 {
+  border-width: 4px;
+}
+.border-5 {
+  border-width: 5px;
+}
+.border-black {
+  border-color: black;
+}
+.border-white {
+  border-color: var(--white);
 }
 .accent-l {
 }
@@ -238,6 +265,9 @@
 }
 .hidden {
   visibility: hidden;
+}
+.display-none {
+  display: none;
 }
 /*media queries*/
 @media (width > 330px) {
