@@ -1,20 +1,9 @@
-import { useRef } from 'react';
 import './bg-display-button.css';
-export default function BgButton({ routeName }) {
-  const toggle = useRef(false);
+export default function BgButton() {
   function displayBg() {
-    toggle.current = !toggle.current;
-    let nodeList = document.getElementsByClassName(`faded-edge ${routeName.toLowerCase()}`);
-    for (let el of nodeList) {
-      console.log(toggle.current);
-      if (toggle.current) {
-        el.classList.add('collapsed');
-        document.getElementById('navbar').style.zIndex = -1;
-      } else {
-        el.classList.remove('collapsed');
-        document.getElementById('navbar').style.zIndex = 1;
-      }
-    }
+    document.getElementById('bg-drawing').classList.remove('display-none');
+    document.getElementById('router').classList.add('display-none');
+    document.getElementById('navbar').style.zIndex = -1;
   }
   return (
     <button
