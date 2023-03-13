@@ -16,7 +16,7 @@ export default function Router() {
   }, []);
 
   useEffect(() => {
-    console.log(`${colors.mg}${currentPage} from comploader${colors.ec}`);
+    console.log(`${colors.mg}${currentPage} log view${colors.ec}`);
     loadPage(lazy(() => import(`../${currentPage.toLowerCase()}/${currentPage.toLowerCase()}`)));
   }, [currentPage]);
   return [
