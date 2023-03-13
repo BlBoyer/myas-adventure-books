@@ -1,48 +1,66 @@
-import bookArt1 from './bookArt1.jpg';
-import bookArt2 from './bookArt2.jpg';
-import bookArt3 from './bookArt3.jpg';
-import bookArt4 from './bookArt4.jpg';
-import bookArt5 from './bookArt5.jpg';
-import bookArt6 from './bookArt6.jpg';
-import bookArt7 from './bookArt7.jpg';
-import bookArt8 from './bookArt8.jpg';
-import bookArt9 from './bookArt9.jpg';
-import bookArt10 from './bookArt10.jpg';
-import bookArt11 from './bookArt11.jpg';
-import bookArt12 from './bookArt12.jpg';
-import bookArt13 from './bookArt13.jpg';
-import bookArt14 from './bookArt14.jpg';
-import bookArt15 from './bookArt15.jpg';
-import bookArt16 from './bookArt16.jpg';
-import bookArt17 from './bookArt17.jpg';
-import bookArt18 from './bookArt18.jpg';
-
 import './book-viewer.css';
 import { useState, useRef } from 'react';
+
+const art1 = new Image();
+art1.src = require('./bookArt1.jpg');
+const art2 = new Image();
+art2.src = require('./bookArt2.jpg');
+const art3 = new Image();
+art3.src = require('./bookArt3.jpg');
+const art4 = new Image();
+art4.src = require('./bookArt4.jpg');
+const art5 = new Image();
+art5.src = require('./bookArt5.jpg');
+const art6 = new Image();
+art6.src = require('./bookArt6.jpg');
+const art7 = new Image();
+art7.src = require('./bookArt7.jpg');
+const art8 = new Image();
+art8.src = require('./bookArt8.jpg');
+const art9 = new Image();
+art9.src = require('./bookArt9.jpg');
+const art10 = new Image();
+art10.src = require('./bookArt10.jpg');
+const art11 = new Image();
+art11.src = require('./bookArt11.jpg');
+const art12 = new Image();
+art12.src = require('./bookArt12.jpg');
+const art13 = new Image();
+art13.src = require('./bookArt13.jpg');
+const art14 = new Image();
+art14.src = require('./bookArt14.jpg');
+const art15 = new Image();
+art15.src = require('./bookArt15.jpg');
+const art16 = new Image();
+art16.src = require('./bookArt16.jpg');
+const art17 = new Image();
+art17.src = require('./bookArt17.jpg');
+const art18 = new Image();
+art18.src = require('./bookArt18.jpg');
 
 export default function BookViewer() {
   //start on random image
   //have an over button(swipe) for next
   const [bookIndex, setBook] = useState(0);
   const bookImages = [
-    bookArt1,
-    bookArt2,
-    bookArt3,
-    bookArt4,
-    bookArt5,
-    bookArt6,
-    bookArt7,
-    bookArt8,
-    bookArt9,
-    bookArt10,
-    bookArt11,
-    bookArt12,
-    bookArt13,
-    bookArt14,
-    bookArt15,
-    bookArt16,
-    bookArt17,
-    bookArt18,
+    art1,
+    art2,
+    art3,
+    art4,
+    art5,
+    art6,
+    art7,
+    art8,
+    art9,
+    art10,
+    art11,
+    art12,
+    art13,
+    art14,
+    art15,
+    art16,
+    art17,
+    art18,
   ];
   function changeBook(direction) {
     if (direction === 'right' && bookIndex < bookImages.length - 1) {
@@ -60,7 +78,7 @@ export default function BookViewer() {
           className='book-viewer my-a txt-xl bg-translucent gray-4 button-glow'>
           <text className='book-viewer flip-x txt-align-r'>&#10148;</text>
         </button>
-        <img src={bookImages[bookIndex]} alt='Book Art' className='book-viewer view-width v-30 auto-height' />
+        <img src={bookImages[bookIndex].src} alt='Book Art' className='book-viewer view-width v-30 auto-height' />
         <button
           onClick={() => changeBook('right')}
           className='book-viewer my-a txt-xl bg-translucent gray-4 button-glow'>
