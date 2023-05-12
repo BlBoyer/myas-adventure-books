@@ -37,6 +37,8 @@ const art17 = new Image();
 art17.src = require('./bookArt17.jpg');
 const art18 = new Image();
 art18.src = require('./bookArt18.jpg');
+const art19 = new Image();
+art19.src = require('./bookArt19.jpg');
 
 export default function BookViewer() {
   //start on random image
@@ -61,13 +63,22 @@ export default function BookViewer() {
     art16,
     art17,
     art18,
+    art19,
   ];
   function changeBook(direction) {
-    if (direction === 'right' && bookIndex < bookImages.length - 1) {
-      setBook(bookIndex => bookIndex + 1);
+    if (direction === 'right') {
+      if (bookIndex === bookImages.length - 1) {
+        setBook(0);
+      } else {
+        setBook(bookIndex => bookIndex + 1);
+      }
     }
-    if (direction === 'left' && bookIndex > 0) {
-      setBook(bookIndex => bookIndex - 1);
+    if (direction === 'left') {
+      if (bookIndex === 0) {
+        setBook(bookImages.length - 1);
+      } else {
+        setBook(bookIndex => bookIndex - 1);
+      }
     }
   }
   return (
