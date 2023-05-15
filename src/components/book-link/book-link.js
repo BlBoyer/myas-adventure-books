@@ -13,7 +13,7 @@ export default function BookLink({ book }) {
           <a
             href={Object.entries(urlObj)[0][1]}
             title={langs[Object.entries(urlObj)[0][0]]}
-            className='imagine-border'
+            className='book-link mr-xs'
             key={ind}>
             {Object.entries(urlObj)[0][0]}
           </a>

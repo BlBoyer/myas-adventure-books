@@ -21,13 +21,20 @@ export function BooksContent() {
             book.
           </p>
         </div>
-        <div className='books row justify-c imagine-border'>
-          {books['books'].map((book, ind) => [
-            <p>{book.name}</p>,
-            <div>
+        <div>
+          <hr />
+        </div>
+        <h2>See the books on Amazon</h2>
+        <div className='books col ml-vxs'>
+          {books['books'].map((book, ind) => (
+            <div className='books row justify-s align-c'>
+              <p className='books'>
+                <strong>{book.name}</strong>
+              </p>
+              <p className='mt-xs mx-s'>....</p>
               <BookLink book={book} key={ind} />
-            </div>,
-          ])}
+            </div>
+          ))}
         </div>
       </div>
     </div>

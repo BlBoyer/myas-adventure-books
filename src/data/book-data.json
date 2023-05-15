@@ -3,10 +3,6 @@
     {
       "name": "Book One",
       "urls": [{ "eng": "https://www.amazon.com/dp/B0C524116D" }]
-    },
-    {
-      "name": "Book Two",
-      "urls": [{ "eng": "https://www.amazon.com/dp/B0C524116D" }]
     }
   ]
 }
