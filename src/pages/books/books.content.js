@@ -1,6 +1,8 @@
+import BookLink from '../../components/book-link/book-link';
 import BookViewer from '../../components/book-viewer/book-viewer';
 
 export function BooksContent() {
+  const books = require('../../data/book-data.json');
   return (
     <div className='books row justify-c mx-vl px-s'>
       <div className='books col'>
@@ -18,6 +20,14 @@ export function BooksContent() {
             </a>{' '}
             book.
           </p>
+        </div>
+        <div className='books row justify-c imagine-border'>
+          {books['books'].map((book, ind) => [
+            <p>{book.name}</p>,
+            <div>
+              <BookLink book={book} key={ind} />
+            </div>,
+          ])}
         </div>
       </div>
     </div>
