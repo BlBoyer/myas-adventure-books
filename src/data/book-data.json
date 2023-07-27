@@ -2,7 +2,11 @@
   "books": [
     {
       "name": "Book One",
-      "urls": [{ "eng": "https://www.amazon.com/dp/B0C524116D" }, { "ukr": "https://www.amazon.com/dp/B0C5P5SHCQ" }]
+      "urls": [
+        { "eng": "https://www.amazon.com/dp/B0C524116D" },
+        { "ukr": "https://www.amazon.com/dp/B0C5P5SHCQ" },
+        { "esp": "https://www.amazon.com/dp/B0C9SLCPWH" }
+      ]
     }
   ]
 }
