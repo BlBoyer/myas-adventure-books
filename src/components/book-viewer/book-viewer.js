@@ -39,6 +39,8 @@ const art18 = new Image();
 art18.src = require('./bookArt18.jpg');
 const art19 = new Image();
 art19.src = require('./bookArt19.jpg');
+const art20 = new Image();
+art20.src = require('./bookArt20.jpg');
 
 export default function BookViewer() {
   //start on random image
@@ -64,6 +66,7 @@ export default function BookViewer() {
     art17,
     art18,
     art19,
+    art20,
   ];
   function changeBook(direction) {
     if (direction === 'right') {
