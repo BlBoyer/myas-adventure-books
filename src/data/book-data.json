@@ -10,7 +10,7 @@
     },
     {
       "name": "Book Two",
-      "urls": [{ "eng": "https://www.amazon.com/dp/B0CRZB18B3" }]
+      "urls": [{ "eng": "https://www.amazon.com/dp/B0CRZB18B3" }, { "esp": "https://www.amazon.com/dp/B0CS98Y7VZ" }]
     }
   ]
 }
