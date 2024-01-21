@@ -4,13 +4,19 @@
       "name": "Book One",
       "urls": [
         { "eng": "https://www.amazon.com/dp/B0C524116D" },
+        { "esp": "https://www.amazon.com/dp/B0C9SLCPWH" },
         { "ukr": "https://www.amazon.com/dp/B0C5P5SHCQ" },
-        { "esp": "https://www.amazon.com/dp/B0C9SLCPWH" }
+        { "rus": "https://www.amazon.com/dp/1087949637" }
       ]
     },
     {
       "name": "Book Two",
-      "urls": [{ "eng": "https://www.amazon.com/dp/B0CRZB18B3" }, { "esp": "https://www.amazon.com/dp/B0CS98Y7VZ" }]
+      "urls": [
+        { "eng": "https://www.amazon.com/dp/B0CRZB18B3" },
+        { "esp": "https://www.amazon.com/dp/B0CS98Y7VZ" },
+        { "ukr": "https://www.amazon.com/dp/B0CSG5PPFG" },
+        { "rus": "https://www.amazon.com/dp/B0CSN5DXH4" }
+      ]
     }
   ]
 }
