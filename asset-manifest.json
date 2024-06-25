@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "https://mayasadventures.org/static/css/main.dbd3fa6b.css",
-    "main.js": "https://mayasadventures.org/static/js/main.0f29ef9d.js",
+    "main.js": "https://mayasadventures.org/static/js/main.c14c2bbc.js",
     "static/css/187.bcc98703.chunk.css": "https://mayasadventures.org/static/css/187.bcc98703.chunk.css",
     "static/js/187.94103cc4.chunk.js": "https://mayasadventures.org/static/js/187.94103cc4.chunk.js",
     "static/css/307.41327153.chunk.css": "https://mayasadventures.org/static/css/307.41327153.chunk.css",
@@ -10,9 +10,9 @@
     "static/js/441.631ab73c.chunk.js": "https://mayasadventures.org/static/js/441.631ab73c.chunk.js",
     "static/js/138.fd0d1ae1.chunk.js": "https://mayasadventures.org/static/js/138.fd0d1ae1.chunk.js",
     "static/css/253.c84d0ed0.chunk.css": "https://mayasadventures.org/static/css/253.c84d0ed0.chunk.css",
-    "static/js/253.becc9f32.chunk.js": "https://mayasadventures.org/static/js/253.becc9f32.chunk.js",
+    "static/js/253.fb394dd0.chunk.js": "https://mayasadventures.org/static/js/253.fb394dd0.chunk.js",
     "static/css/447.16ba1004.chunk.css": "https://mayasadventures.org/static/css/447.16ba1004.chunk.css",
-    "static/js/447.96e5b8ed.chunk.js": "https://mayasadventures.org/static/js/447.96e5b8ed.chunk.js",
+    "static/js/447.1025ef44.chunk.js": "https://mayasadventures.org/static/js/447.1025ef44.chunk.js",
     "static/css/302.98b5a407.chunk.css": "https://mayasadventures.org/static/css/302.98b5a407.chunk.css",
     "static/js/302.9186de79.chunk.js": "https://mayasadventures.org/static/js/302.9186de79.chunk.js",
     "static/css/687.06f8253c.chunk.css": "https://mayasadventures.org/static/css/687.06f8253c.chunk.css",
@@ -58,7 +58,7 @@
     "static/media/author.jpg": "https://mayasadventures.org/static/media/author.c444d94b816c4d29c9f5.jpg",
     "index.html": "https://mayasadventures.org/index.html",
     "main.dbd3fa6b.css.map": "https://mayasadventures.org/static/css/main.dbd3fa6b.css.map",
-    "main.0f29ef9d.js.map": "https://mayasadventures.org/static/js/main.0f29ef9d.js.map",
+    "main.c14c2bbc.js.map": "https://mayasadventures.org/static/js/main.c14c2bbc.js.map",
     "187.bcc98703.chunk.css.map": "https://mayasadventures.org/static/css/187.bcc98703.chunk.css.map",
     "187.94103cc4.chunk.js.map": "https://mayasadventures.org/static/js/187.94103cc4.chunk.js.map",
     "307.41327153.chunk.css.map": "https://mayasadventures.org/static/css/307.41327153.chunk.css.map",
@@ -67,9 +67,9 @@
     "441.631ab73c.chunk.js.map": "https://mayasadventures.org/static/js/441.631ab73c.chunk.js.map",
     "138.fd0d1ae1.chunk.js.map": "https://mayasadventures.org/static/js/138.fd0d1ae1.chunk.js.map",
     "253.c84d0ed0.chunk.css.map": "https://mayasadventures.org/static/css/253.c84d0ed0.chunk.css.map",
-    "253.becc9f32.chunk.js.map": "https://mayasadventures.org/static/js/253.becc9f32.chunk.js.map",
+    "253.fb394dd0.chunk.js.map": "https://mayasadventures.org/static/js/253.fb394dd0.chunk.js.map",
     "447.16ba1004.chunk.css.map": "https://mayasadventures.org/static/css/447.16ba1004.chunk.css.map",
-    "447.96e5b8ed.chunk.js.map": "https://mayasadventures.org/static/js/447.96e5b8ed.chunk.js.map",
+    "447.1025ef44.chunk.js.map": "https://mayasadventures.org/static/js/447.1025ef44.chunk.js.map",
     "302.98b5a407.chunk.css.map": "https://mayasadventures.org/static/css/302.98b5a407.chunk.css.map",
     "302.9186de79.chunk.js.map": "https://mayasadventures.org/static/js/302.9186de79.chunk.js.map",
     "687.06f8253c.chunk.css.map": "https://mayasadventures.org/static/css/687.06f8253c.chunk.css.map",
@@ -90,6 +90,6 @@
   },
   "entrypoints": [
     "static/css/main.dbd3fa6b.css",
-    "static/js/main.0f29ef9d.js"
+    "static/js/main.c14c2bbc.js"
   ]
 }
