@@ -20,7 +20,12 @@
     },
     {
       "name": "Book Three",
-      "urls": [{ "eng": "" }, { "esp": "" }, { "ukr": "https://www.amazon.com/dp/B0D7DKNDFX" }, { "rus": "" }]
+      "urls": [
+        { "eng": "https://www.amazon.com/dp/B0D76L2SSV" },
+        { "esp": "" },
+        { "ukr": "https://www.amazon.com/dp/B0D7DKNDFX" },
+        { "rus": "https://www.amazon.com/dp/B0D8C7PRGK" }
+      ]
     }
   ]
 }
