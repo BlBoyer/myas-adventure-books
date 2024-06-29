@@ -17,6 +17,15 @@
         { "ukr": "https://www.amazon.com/dp/B0CSG5PPFG" },
         { "rus": "https://www.amazon.com/dp/B0CSN5DXH4" }
       ]
+    },
+    {
+      "name": "Book Three",
+      "urls": [
+        { "eng": "https://www.amazon.com/dp/B0D76L2SSV" },
+        { "esp": "" },
+        { "ukr": "https://www.amazon.com/dp/B0D7DKNDFX" },
+        { "rus": "https://www.amazon.com/dp/B0D8C7PRGK" }
+      ]
     }
   ]
 }
