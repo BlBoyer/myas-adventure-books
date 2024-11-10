@@ -26,6 +26,10 @@
         { "ukr": "https://www.amazon.com/dp/B0D7DKNDFX" },
         { "rus": "https://www.amazon.com/dp/B0D8C7PRGK" }
       ]
+    },
+    {
+      "name": "Book Four",
+      "urls": [{ "eng": "https://www.amazon.com/dp/B0DMF8D9RJ" }]
     }
   ]
 }
