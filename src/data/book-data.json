@@ -29,7 +29,12 @@
     },
     {
       "name": "Book Four",
-      "urls": [{ "eng": "https://www.amazon.com/dp/B0DMF8D9RJ" }, { "ukr": "https://www.amazon.com/dp/B0DMP5QS7J" }]
+      "urls": [
+        { "eng": "https://www.amazon.com/dp/B0DMF8D9RJ" },
+        { "esp": "https://www.amazon.com/dp/B0DN1WNR2P" },
+        { "ukr": "https://www.amazon.com/dp/B0DMP5QS7J" },
+        { "rus": "https://www.amazon.com/dp/B0DMYXH7X2" }
+      ]
     }
   ]
 }
