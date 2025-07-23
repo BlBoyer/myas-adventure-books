@@ -35,6 +35,10 @@
         { "ukr": "https://www.amazon.com/dp/B0DMP5QS7J" },
         { "rus": "https://www.amazon.com/dp/B0DMYXH7X2" }
       ]
+    },
+    {
+      "name": "Book Five",
+      "urls": [{ "rus": "https://www.amazon.com/dp/B0FJF7QPX9" }]
     }
   ]
 }
