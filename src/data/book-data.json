@@ -38,7 +38,9 @@
     },
     {
       "name": "Book Five",
-      "urls": [{ "rus": "https://www.amazon.com/dp/B0FJF7QPX9" }]
+        "urls": [
+        { "eng": "https://www.amazon.com/dp/B0FHDWH2NJ" },
+        { "rus": "https://www.amazon.com/dp/B0FJF7QPX9" }]
     },
         {
       "name": "Book Six",
