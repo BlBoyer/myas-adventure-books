@@ -40,11 +40,17 @@
       "name": "Book Five",
         "urls": [
         { "eng": "https://www.amazon.com/dp/B0FHDWH2NJ" },
-        { "rus": "https://www.amazon.com/dp/B0FJF7QPX9" }]
+        { "ukr": "https://www.amazon.com/dp/B0FHPYZB7R" },
+        { "rus": "https://www.amazon.com/dp/B0FJF7QPX9" }
+      ]
     },
         {
       "name": "Book Six",
-      "urls": [{ "eng": "https://www.amazon.com/dp/B0G39KZ2N1" }]
+      "urls": [
+        { "eng": "https://www.amazon.com/dp/B0G39KZ2N1" },
+        { "ukr": "https://www.amazon.com/dp/B0G4279P1X" },
+        { "rus": "https://www.amazon.com/dp/B0G43QLKCZ" }
+      ]
     }
   ]
 }
