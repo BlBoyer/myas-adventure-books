@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmyas_adventures=self.webpackChunkmyas_adventures||[]).push([[99],{99:function(e,a,s){e.exports=s.p+"static/media/maya.ac7eeb10b01e943266d5.jpg"}}]);

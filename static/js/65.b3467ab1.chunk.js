@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmyas_adventures=self.webpackChunkmyas_adventures||[]).push([[65],{65:(e,s,a)=>{a.r(s),a.d(s,{default:()=>u});const u={}}}]);
+//# sourceMappingURL=65.b3467ab1.chunk.js.map
