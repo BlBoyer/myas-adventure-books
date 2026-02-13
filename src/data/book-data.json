@@ -22,7 +22,7 @@
       "name": "Book Three",
       "urls": [
         { "eng": "https://www.amazon.com/dp/B0D76L2SSV" },
-        { "esp": "" },
+        { "esp": "https://www.amazon.com/dp/B0D923L9B5" },
         { "ukr": "https://www.amazon.com/dp/B0D7DKNDFX" },
         { "rus": "https://www.amazon.com/dp/B0D8C7PRGK" }
       ]
@@ -40,6 +40,7 @@
       "name": "Book Five",
         "urls": [
         { "eng": "https://www.amazon.com/dp/B0FHDWH2NJ" },
+        { "esp": "https://www.amazon.com/dp/B0FLDXR4SK" },
         { "ukr": "https://www.amazon.com/dp/B0FHPYZB7R" },
         { "rus": "https://www.amazon.com/dp/B0FJF7QPX9" }
       ]
@@ -48,6 +49,7 @@
       "name": "Book Six",
       "urls": [
         { "eng": "https://www.amazon.com/dp/B0G39KZ2N1" },
+        { "esp": "https://www.amazon.com/dp/B0GCN23JGF" },
         { "ukr": "https://www.amazon.com/dp/B0G4279P1X" },
         { "rus": "https://www.amazon.com/dp/B0G43QLKCZ" }
       ]
