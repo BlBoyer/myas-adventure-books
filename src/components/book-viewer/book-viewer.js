@@ -14,7 +14,7 @@ art5.src = require('./cover5.jpg');
 const art6 = new Image();
 art6.src = require('./cover6.jpg');
 const art7 = new Image();
-art6.src = require('./cover7.jpg');
+art7.src = require('./cover7.jpg');
 //const art4 = new Image();
 // art4.src = require('./bookArt1.jpg');
 // const art5 = new Image();
@@ -56,7 +56,7 @@ export default function BookViewer() {
   //start on random image
   //have an over button(swipe) for next
   const [bookIndex, setBook] = useState(0);
-  const bookImages = [art1, art2, art3, art4, art5, art6];
+  const bookImages = [art1, art2, art3, art4, art5, art6, art7];
   function changeBook(direction) {
     if (direction === 'right') {
       if (bookIndex === bookImages.length - 1) {
